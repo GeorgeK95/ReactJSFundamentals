@@ -1,0 +1,94 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*CUSTOM*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+label {
+    margin-top: 20px;
+}
+
+.submit-btn {
+    margin-top: 30px;
+}
+
+.error-msg {
+    font-size: 10px;
+}
+
+.success-msg {
+    color: green;
+    font-size: 16px;
+}
+
+.pokemon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: inline;
+}
+
+.pokemon-name {
+    font-size: small;
+}
+
+.pokemon-img {
+    width:  150px;
+    height: 150px;
+    border: 3px solid darkorange;
+    margin-top: 10px;
+    margin-left: 10px;
+}

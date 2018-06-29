@@ -1,0 +1,51 @@
+.wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.wrapper .sliderImg {
+    max-height: 400px;
+}
+
+.wrapper .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: 150px;
+}
+
+.wrapper .case-left {
+    left: 0;
+}
+
+.wrapper .case-right {
+    right: 0;
+}
+
+.border-1 {
+    border: 1px solid orange;
+}
+
+.border-3 {
+    border: 3px solid orange;
+}
+
+.roster-img {
+    margin: 10px 0px 10px 0px;
+}
+
+.roster-menu {
+    margin-left: 50px;
+}
+
+.details {
+    border: 2px solid grey;
+    height: 100%;
+    width:  650px;
+}
+
+.limit{
+    width:50px;
+    word-wrap: break-word;
+}
