@@ -14,6 +14,13 @@ class Roster extends Component {
         };
 
         this.showImageDetails = (image) => {
+            let oldImage = this.state.selectedImage;
+
+            if (oldImage.id === image.id) {
+                this.setState({selectedImage: false});
+                return;
+            }
+
             this.setState({selectedImage: image})
         };
 
@@ -31,8 +38,9 @@ class Roster extends Component {
 
         return (
             <div className='roster-menu'>
-                {images.map((image) =>
-                    <Image imgUrl={image.url}
+                {images.map((image, index) =>
+                    <Image key={index}
+                           imgUrl={image.url}
                            classNames='roster-img border-3'
                            weight='200px'
                            height='200px'

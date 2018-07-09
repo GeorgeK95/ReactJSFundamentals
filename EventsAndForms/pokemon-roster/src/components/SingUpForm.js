@@ -6,16 +6,16 @@ import ErrorMessage from "./ErrorMessage";
 import SubmitBtn from "./SubmitBtn";
 import Message from "./Message";
 
-const API = 'http://localhost:5000/auth/signup';
+    const API = 'http://localhost:5000/auth/signup';
 
-const EMAIL_MESSAGE = 'Please provide a correct email address.'
-const CONFIRM_EMAIL_MESSAGE = 'Please, confirm your email.'
-const PASSWORD_MESSAGE = 'Password must have at least 8 characters.'
-const CONFIRM_PASSWORD_MESSAGE = 'Please, confirm your password.'
-const NAME_MESSAGE = 'Please provide your name.'
-const TERMS_MESSAGE = 'Please accept our terms.'
+    const EMAIL_MESSAGE = 'Please provide a correct email address.'
+    const CONFIRM_EMAIL_MESSAGE = 'Please, confirm your email.'
+    const PASSWORD_MESSAGE = 'Password must have at least 8 characters.'
+    const CONFIRM_PASSWORD_MESSAGE = 'Please, confirm your password.'
+    const NAME_MESSAGE = 'Please provide your name.'
+    const TERMS_MESSAGE = 'Please accept our terms.'
 
-const SUCCESSFULLY_REGISTERED_MESSAGE = 'Successfully registered!'
+    const SUCCESSFULLY_REGISTERED_MESSAGE = 'Successfully registered!'
 
 class SingUpForm extends Component {
     constructor() {

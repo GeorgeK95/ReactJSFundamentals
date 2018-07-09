@@ -2,10 +2,6 @@ import React, {Component} from 'react'
 import Image from "./Image";
 
 class Details extends Component {
-    constructor(props) {
-        super(props)
-    }
-
     render() {
         return (
             <div className='details'>
